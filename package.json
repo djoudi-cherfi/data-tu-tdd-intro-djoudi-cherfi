@@ -7,9 +7,12 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "node tests/index.js"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.0.3"
+  }
 }
