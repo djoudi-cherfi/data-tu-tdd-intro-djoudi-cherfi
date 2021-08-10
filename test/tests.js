@@ -1,7 +1,5 @@
 const { expect } = require('chai');
 
-const assert = require('assert');
-
 const { getRandomFirstName, data } = require('../services/randomFirstName');
 
 describe('randomFirstName service', function() {
